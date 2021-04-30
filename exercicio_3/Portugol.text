@@ -1,0 +1,22 @@
+programa {
+    real salario
+    real salarioNovo
+    
+
+    função inicio (){
+        escreva ("Qual o valor do seu salario atual?")
+        leia (salario)
+
+        se(salario < 500){
+            salarioNovo = salario * 1.3
+            escreva("Seu salário foi alterado para o valor de: " + salarioNovo)
+        }
+
+        senao{
+            escreva("Você não teve alteracão no seu salário! ")
+        }
+
+
+
+    }
+}

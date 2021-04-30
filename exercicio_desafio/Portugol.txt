@@ -1,0 +1,28 @@
+programa {
+
+
+    inteiro idadePessoa
+
+
+    função inicio() {
+        escreva("Categorias de Nataçao")
+        escreva("Qual a sua idade?")
+        leia(idadePessoa)
+
+        se(idadePessoa >= 5 && idadePessoa <= 7){
+            escreva("Você pentence a categoria INFANTIL A")
+        }
+        se(idadePessoa >=  8 && idadePessoa <= 10){
+            escreva("Você pentence a categoria INFANTIL B")
+        }
+        se(idadePessoa >= 11 && idadePessoa <= 13){
+            escreva("Você pentence a categoria JUVENIL A")
+        }
+        se(idadePessoa >= 14 && idadePessoa <= 17){
+            escreva("Você pentence a categoria JUVENIL B")
+        }
+        se(idadePessoa >= 18){
+            escreva("Você pentence a categoria SÊNIOR")
+        }
+    }
+}

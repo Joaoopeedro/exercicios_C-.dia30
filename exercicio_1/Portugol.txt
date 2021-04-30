@@ -1,0 +1,41 @@
+programa {
+
+
+    texto nomePessoa
+
+
+
+    inteiro idade
+    inteiro meses
+    inteiro anobissexto
+    inteiro dias
+    inteiro horas
+    inteiro minutos
+
+
+    funcão inicio() {
+        escreva("Qual o seu nome ?")
+        leia(nomePessoa)
+
+        escreva("Boa tarde " + nomePessoa + "!!" + "\n")
+
+        escreva("Quantos anos você tem?")
+        leia(idade)
+        escreva()
+
+        meses = idade * 12
+        anobissexto = idade * 366
+        dias = idade * 365
+        horas = dias * 24
+        minutos =  horas * 60
+
+        escreva(meses + " :meses")
+        escreva(anobissexto + " :dias em ano bissexto")
+        escreva(dias + " :dias")
+        escreva(horas + " :horas")
+        escreva(minutos + " :min")
+
+    }
+
+}
+

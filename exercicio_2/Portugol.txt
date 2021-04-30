@@ -1,0 +1,36 @@
+programa{
+
+    inteiro ano
+    inteiro anoAtual
+    inteiro idade
+    inteiro idadeSemana
+    real aniversario
+
+
+    função inicio() {
+        escreva ("exercicio_2")
+        escreva ("Qual o ano do seu nascimento?")
+
+        leia(ano)
+
+        anoAtual = DateTime.Now.Year
+
+
+        escreva ("Você ja fez aniversario em " + anoAtual + "??")
+        escreva ("Responda com S(se for sim) e N (se for não)")
+        leia(aniversario)
+        
+
+        idade = anoAtual - ano
+        se(aniversario == "S"){
+            escreva ("Você tem a idade de: " + idade + " anos")
+        }senao{
+            escreva ("Você tem a idade de: " + (idade - 1) + " anos"))
+        }
+        
+
+        idadeSemana = idade * 12 * 4
+        escreva ("Sua idade convertida em semanas é de: " +  idadeSemana + " semanas")
+
+    }
+}
